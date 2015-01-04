@@ -16,3 +16,6 @@
 /tmp
 
 .env
+
+# Ignore bundled gems
+/vendor/ruby
