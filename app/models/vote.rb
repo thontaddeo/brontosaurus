@@ -1,6 +1,6 @@
 class Vote < ActiveRecord::Base
 
-	belongs_to :location
+	belongs_to :restaurant
 	belongs_to :user
 
 end
