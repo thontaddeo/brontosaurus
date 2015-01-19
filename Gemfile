@@ -34,6 +34,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "bower-rails"
+gem 'angularjs-rails'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug',      '3.4.0'
@@ -48,7 +51,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg',             '0.17.1'
-  gem 'rails_12factor', '0.0.2'
+  # gem 'pg'
+  gem 'rails_12factor'
 end
-
